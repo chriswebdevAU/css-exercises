@@ -5,10 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Methods for Adding CSS</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Linking a stylesheet to html-->
+      <!--href tells html the link location-->
+        <!-- rel="stylesheet" indicates the relationship to the html is stylesheet formatting-->
+  <style>
+      p {
+        background-color: green;
+        color: white;
+        font-size: 18px;
+      }
+  </style>
+  <!--an example of an internal styling method-->
+  <!--this style element selects the <p> element and styles content nested within-->
+
   </head>
+  
   <body>
+
     <div>Style me via the external method!</div>
     <p>I would like to be styled with the internal method, please.</p>
-    <button>Inline Method</button>
+    <button style="background-color: orange; font-size: 18px;">Inline Method</button>
+    <!--this is an in-line style method, similar to an internal styling method,
+        however this style selector doesnt need to call the element, it sets the parameters
+        of the element in-line nested within the element, rather than in a styling section
+        
+        this means multiple buttons could be styled, unlike the styling for the P element which
+        would style all P elements in the html document-->
   </body>
 </html>

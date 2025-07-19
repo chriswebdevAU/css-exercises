@@ -1,0 +1,15 @@
+div {
+    /*this function is calling the div element, aka searching the html file for any element
+    dictated as "div"*/
+  background-color: red;
+  /*this function is setting the background-color*/
+  color: white;
+  /*whilst this simply says "color" this is styling the text of the element*/
+  font-size: 32px;
+  /*setting font size of any text located within an element that's been set as div */
+  text-align: center;
+  /*moves text to the centre of the element rather than the lefthand side default */
+
+  font-weight: bold;
+  /*bold font */
+}
