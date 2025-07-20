@@ -1,0 +1,26 @@
+/*set the parameters for the odd class*/
+.odd    {
+    background-color: rgb(230, 121, 224);
+    /*background font color */
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+    /*font load order*/
+}
+
+.adjust-font-size{
+    font-size: 24px;
+    /*adjusts the font-size of any element within a class named "adjust-font-size,
+    which in this case, would be "number 3" */
+}
+
+#two {
+    color:#0000ff;
+    font-size: 36px;
+    /*hex color selector instead of rgb */
+}
+#four {
+    background-color: hsl(120, 100%, 75%);
+    /* hsl = hue, saturation (in percent) and lightness (also in %) 
+    note: these must be seperated by commas*/
+    font-weight: bold;
+    /*makes font bold*/
+}

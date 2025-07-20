@@ -1,0 +1,19 @@
+.button1{
+    background-color: black;
+    color:white;
+    /*class selector for button1 - will apply specific changes
+    to the first button in the index.html file */
+
+}
+.button2{
+    background-color:yellow;
+    color:black;
+    /*unique parameters for button2*/
+}
+
+#button{
+    font-size: 28px;
+    font-family: "Helvetica", "Times New Roman", "sans-serif";
+    /*a hashtag denotes a group selector, so will apply changes to both buttons
+    since they both share "button" as their element */
+}
